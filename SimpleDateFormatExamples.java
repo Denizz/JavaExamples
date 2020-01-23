@@ -10,15 +10,15 @@ public class SimpleDateFormatExamples {
 		SimpleDateFormat sdf1 = new SimpleDateFormat("MM.d.yyyy HH:mm:ss");
 		System.out.println(sdf1.format(date));
 	
-		//четверг 23 января 2020 22:17:54
+		//Thursday 23 January 2020 22:17:54
 		SimpleDateFormat sdf2 = new SimpleDateFormat("EEEEE DD MMMMM yyyy HH:mm:ss");
 		System.out.println(sdf2.format(date));
 		
-		//Чт, 23 янв 2020 22:20:46 MSK
+		//Thu, 23 Jan 2020 22:20:46 MSK
 		SimpleDateFormat sdf3 = new SimpleDateFormat("E, dd MMM yyyy HH:mm:ss z");
 		System.out.println(sdf3.format(date));
 		
-		//23 января 2020 Moscow Standard Time
+		//23 january 2020 Moscow Standard Time
 		SimpleDateFormat sdf4 = new SimpleDateFormat("dd MMMM yyyy zzzz");
 		System.out.println(sdf4.format(date));
 		
@@ -30,8 +30,8 @@ public class SimpleDateFormatExamples {
 		SimpleDateFormat sdf6 = new SimpleDateFormat("HH:mm:ss (XXX)");
 		System.out.println(sdf6.format(date));
 		
-		//2020.01.23 н.э. в 22:33:45 MSK
-		SimpleDateFormat sdf7 = new SimpleDateFormat("yyyy.MM.dd G 'в' HH:mm:ss z");
+		//2020.01.23 n.a. at 22:33:45 MSK
+		SimpleDateFormat sdf7 = new SimpleDateFormat("yyyy.MM.dd G 'РІ' HH:mm:ss z");
 		System.out.println(sdf7.format(date));
 		
 		
