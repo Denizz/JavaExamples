@@ -31,7 +31,7 @@ public class SimpleDateFormatExamples {
 		System.out.println(sdf6.format(date));
 		
 		//2020.01.23 n.a. at 22:33:45 MSK
-		SimpleDateFormat sdf7 = new SimpleDateFormat("yyyy.MM.dd G 'в' HH:mm:ss z");
+		SimpleDateFormat sdf7 = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
 		System.out.println(sdf7.format(date));
 		
 		
