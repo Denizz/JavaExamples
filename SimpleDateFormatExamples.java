@@ -11,7 +11,7 @@ public class SimpleDateFormatExamples {
 		System.out.println(sdf1.format(date));
 	
 		//Thursday 23 January 2020 22:17:54
-		SimpleDateFormat sdf2 = new SimpleDateFormat("EEEEE DD MMMMM yyyy HH:mm:ss");
+		SimpleDateFormat sdf2 = new SimpleDateFormat("EEEEE dd MMMMM yyyy HH:mm:ss");
 		System.out.println(sdf2.format(date));
 		
 		//Thu, 23 Jan 2020 22:20:46 MSK
